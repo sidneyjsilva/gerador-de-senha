@@ -64,6 +64,26 @@ button:active {
   background-color: rgb(46, 43, 226);
 }
 
-h1{
+h1 {
   text-align: center;
+}
+
+@media (max-width: 600px) {
+  main {
+    width: 90%;
+    padding: 10px;
+  }
+
+  input {
+    font-size: medium;
+  }
+
+  button {
+    padding: 10px;
+    font-size: medium;
+  }
+
+  h1 {
+    font-size: large;
+  }
 }
